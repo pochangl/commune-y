@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <!-- Core Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="css/font-icons.css">
+
+    <!-- Plugins/Components CSS -->
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Footer - Layout | Canvas</title>
+
+    <!-- block-content-cards-switch -->
+    <style>
+        .grid-switch-content:not(.col-grid)>div {
+
+            -ms-flex: 0 0 100%;
+
+            flex: 0 0 100%;
+
+            max-width: 100%;
+
+            -ms-flex-direction: column !important;
+
+            flex-direction: column !important;
+
+        }
+
+
+
+        .grid-switch-content .card-img {
+
+            -ms-flex: 1 1 auto !important;
+
+            flex: 1 1 auto !important;
+
+            border-radius: 0.25rem 0.25rem 0 0;
+
+        }
+
+
+
+        @media (min-width: 768px) {
+
+            .grid-switch-content:not(.col-grid) .card-img {
+
+                -ms-flex: 0 0 33.333333%;
+
+                flex: 0 0 33.333333%;
+
+                max-width: 33.333333%;
+
+            }
+
+            .grid-switch-content .col-full .card-img {
+                border-radius: 0.25rem 0 0 0.25rem;
+            }
+
+        }
+    </style>
+</head>
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper">
+
+        <header id="header" data-sticky-shrink-offset="0">
+
+            <div id="header-wrap">
+
+                <div class="container">
+
+                    <div class="header-row justify-content-between">
+
+
+
+                        <!-- Logo
+
+						============================================= -->
+
+                        <div id="logo">
+
+                            <a href="index.html">
+
+                                <img class="logo-default mx-auto" srcset="images/logo.png, images/logo@2x.png 2x"
+                                    src="images/logo@2x.png" alt="Canvas Logo">
+
+                                <img class="logo-dark mx-auto" srcset="images/logo-dark.png, images/logo-dark@2x.png 2x"
+                                    src="images/logo-dark@2x.png" alt="Canvas Logo">
+
+                            </a>
+
+                        </div><!-- #logo end -->
+
+
+
+                        <div class="primary-menu-trigger">
+
+                            <button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+
+                                <span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+
+                            </button>
+
+                        </div>
+
+
+
+                        <!-- Primary Navigation
+
+						============================================= -->
+
+                        <nav class="primary-menu">
+
+
+
+                            <ul class="menu-container">
+
+                                <li class="menu-item">
+
+                                    <a href="#" class="menu-link">
+
+                                        <div>Home</div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="menu-item">
+
+                                    <a href="#" class="menu-link">
+
+                                        <div>About</div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="menu-item">
+
+                                    <a href="#" class="menu-link">
+
+                                        <div>Shop</div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="menu-item">
+
+                                    <a href="#" class="menu-link">
+
+                                        <div>Price</div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="menu-item">
+
+                                    <a href="#" class="menu-link">
+
+                                        <div>Contact</div>
+
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+
+
+                        </nav><!-- #primary-menu end -->
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="header-wrap-clone"></div>
+
+        </header><!-- #header end -->
+
+        <section id="content">
+
+            <div class="content-wrap py-lg-0">
+
+
+
+                <div class="container">
+
+
+
+                    <!-- Section light
+
+					============================================= -->
+
+                    <div class="block-hero-26">
+
+
+
+                        <div class="row align-items-center min-vh-lg-100 gutter-50">
+
+
+
+                            <div class="col-lg-6">
+
+                                <h1 class="h1 fw-semibold lh-base mb-4">Interactively restore value interdependent.</h1>
+
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+                                    magnam culpa excepturi doloremque, perferendis autem molestiae nisi quasi
+                                    accusantium amet.</p>
+
+
+
+                                <dl class="row gx-3 mb-0">
+
+                                    <div class="col mb-3 fw-bold"><i class="fa-solid fa-check-circle me-2 color"></i>
+                                        Daily 30 minutes for exercise.</div>
+
+                                    <div class="clear"></div>
+
+
+
+                                    <div class="col mb-3 fw-bold"><i class="fa-solid fa-check-circle me-2 color"></i>
+                                        Flexible eating that fits your lifestyle and culture.</div>
+
+                                    <div class="clear"></div>
+
+
+
+                                    <div class="col mb-0 fw-bold"><i class="fa-solid fa-check-circle me-2 color"></i> I
+                                        dropped over 25 kgs in 6 months.</div>
+
+                                    <div class="clear"></div>
+
+                                </dl>
+
+                            </div>
+
+
+
+                            <div class="col-lg-6">
+
+                                <div id="bs-carousel" class="carousel slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-indicators">
+
+                                        <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                                        <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+
+                                        <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+
+                                    </div>
+
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+
+                                            <img class="d-block w-100" src="images/blocks/preview/hero-26/1.jpg"
+                                                alt="First slide">
+
+                                            <div class="carousel-caption">
+
+                                                <h3 class="text-white mb-2">First slide label</h3>
+
+                                                <p class="mb-3 op-07">Nulla vitae elit libero, a pharetra augue mollis
+                                                    interdum.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="carousel-item">
+
+                                            <img class="d-block w-100" src="images/blocks/preview/hero-26/2.jpg"
+                                                alt="Second slide">
+
+                                            <div class="carousel-caption">
+
+                                                <h3 class="text-white mb-2">Second slide label</h3>
+
+                                                <p class="mb-3 op-07">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="carousel-item">
+
+                                            <img class="d-block w-100" src="images/blocks/preview/hero-26/3.jpg"
+                                                alt="Third slide">
+
+                                            <div class="carousel-caption">
+
+                                                <h3 class="text-dark mb-2">Third slide label - Dark</h3>
+
+                                                <p class="mb-3 text-muted">Praesent commodo cursus magna, vel nisl
+                                                    consectetur.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <a class="carousel-control-prev" href="#bs-carousel" role="button"
+                                        data-bs-slide="prev">
+
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                                        <span class="visually-hidden">Previous</span>
+
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#bs-carousel" role="button"
+                                        data-bs-slide="next">
+
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                                        <span class="visually-hidden">Next</span>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </section><!-- #content end -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container">
+
+
+
+                    <div class="d-flex justify-content-center mb-5">
+
+                        <div class="btn-group grid-switch d-none d-md-inline-flex" role="group">
+
+                            <input type="radio" name="options" class="btn-check" id="option1" autocomplete="off"
+                                checked>
+
+                            <label for="option1" class="btn btn-outline-dark btn-grid"><i class="bi-grid"></i></label>
+
+
+
+                            <input type="radio" name="options" class="btn-check" id="option2" autocomplete="off">
+
+                            <label for="option2" class="btn btn-outline-dark btn-full"><i
+                                    class="bi-justify"></i></label>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row grid-switch-content col-grid">
+
+
+
+                        <div class="entry col-lg-4">
+
+                            <div class="card">
+
+                                <div class="row g-0 align-items-center">
+
+                                    <div class="col card-img d-flex align-self-stretch overflow-hidden">
+
+                                        <img class="img-fluid" src="images/blocks/preview/card-2/1.jpg" alt="...">
+
+                                    </div>
+
+                                    <div class="col p-4">
+
+                                        <div class="card-body">
+
+                                            <h3 class="card-title">Card Title</h3>
+
+                                            <p class="card-text mb-2">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit. Dolores unde earum blanditiis voluptatum, maiores
+                                                aspernatur ab repudiandae, et nisi culpa.</p>
+
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="entry col-lg-4">
+
+                            <div class="card">
+
+                                <div class="row g-0 align-items-center">
+
+                                    <div class="col card-img d-flex align-self-stretch overflow-hidden">
+
+                                        <img class="img-fluid" src="images/blocks/preview/card-2/2.jpg" alt="...">
+
+                                    </div>
+
+                                    <div class="col p-4">
+
+                                        <div class="card-body">
+
+                                            <h3 class="card-title">Card Title</h3>
+
+                                            <p class="card-text mb-2">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit. Dolores unde earum blanditiis voluptatum, maiores
+                                                aspernatur ab repudiandae, et nisi culpa.</p>
+
+                                            <p class="card-text"><small class="text-muted">Last updated 1 hours
+                                                    ago</small></p>
+
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="entry col-lg-4">
+
+                            <div class="card">
+
+                                <div class="row g-0 align-items-center">
+
+                                    <div class="col card-img d-flex align-self-stretch overflow-hidden">
+
+                                        <img class="img-fluid" src="images/blocks/preview/card-2/3.jpg" alt="...">
+
+                                    </div>
+
+                                    <div class="col p-4">
+
+                                        <div class="card-body">
+
+                                            <h3 class="card-title">Card Title</h3>
+
+                                            <p class="card-text mb-2">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit. Dolores unde earum blanditiis voluptatum, maiores
+                                                aspernatur ab repudiandae, et nisi culpa.</p>
+
+                                            <p class="card-text"><small class="text-muted">Last updated 2 days
+                                                    ago</small></p>
+
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
+
+        <!-- Content
+		============================================= -->
+        <section id="content">
+            <div class="content-wrap bg-light">
+
+                <div class="text-center fs-4">Content</div>
+
+            </div>
+        </section><!-- #content end -->
+
+        <!-- Footer
+		============================================= -->
+        <footer id="footer" class="dark border-color-brown border-width-3 bg-dark-green">
+
+            <div class="container">
+
+                <!-- Footer Widgets
+				============================================= -->
+                <div class="footer-widgets-wrap pb-5">
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 mb-4">
+
+                            <div class="widget text-center">
+                                <h1 class="display-1 text-lowercase mb-3 ls-1 color-brown" style="font-weight: 700;">
+                                    Canvas</h1>
+                                <p class="mw-xs mx-auto text-white-50 mt-4 mb-0">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Commodi officiis vel ratione harum quos minima dolorum expedita
+                                    magni at totam!</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12">
+                            <div class="line border-color-brown op-02"></div>
+                        </div>
+
+                        <div class="col-lg-9 my-4">
+
+                            <div class="row justify-content-center justify-content-md-between text-center col-mb-50">
+
+                                <div class="col-auto">
+                                    <h2 class="display-5 mb-2">Call</h2>
+                                    <p class="mb-0"><a class="color-brown text-uppercase ls-1 small"
+                                            href="tel:+0001122233">+(00) 111 222 33</a></p>
+                                </div>
+
+                                <div class="col-auto">
+                                    <h2 class="display-5 mb-2">Email</h2>
+                                    <p class="mb-0"><a class="color-brown text-uppercase ls-1 small"
+                                            href="mailto:no-reply@canvas.com">no-reply@canvas.com</a></p>
+                                </div>
+
+                                <div class="col-auto">
+                                    <h2 class="display-5 mb-2">Location</h2>
+                                    <p class="mb-0"><a class="color-brown text-uppercase ls-1 small "
+                                            href="http://maps.google.com">795 Folsom Ave, Suite 600</a></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-12">
+                            <div class="line border-color-brown op-02"></div>
+                        </div>
+
+                        <div class="col-9 my-4">
+                            <div class="row justify-content-between col-mb-80">
+
+                                <div class="col-lg-6">
+
+                                    <div class="row gutter-30">
+                                        <div class="col-6">
+
+                                            <div class="widget widget_links">
+                                                <h3 class="color-brown fs-5 font-body">Help &amp; Supports</h3>
+                                                <ul>
+                                                    <li><a href="#">Documentation</a></li>
+                                                    <li><a href="#">Feedback</a></li>
+                                                    <li><a href="#">Plugins</a></li>
+                                                    <li><a href="#">Support Forums</a></li>
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-6">
+
+                                            <div class="widget widget_links">
+
+                                                <h3 class="color-brown fs-5 font-body">Blogroll</h3>
+
+                                                <ul>
+                                                    <li><a href="#">Feedback</a></li>
+                                                    <li><a href="#">Documentation</a></li>
+                                                    <li><a href="#">Themes</a></li>
+                                                    <li><a href="#">Contact Us</a></li>
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div
+                                    class="col-12 col-lg-auto d-flex flex-column align-items-center align-items-lg-end">
+                                    <h3 class="color-brown fs-5 font-body mb-3 mb-lg-auto">Connect with Us</h3>
+                                    <div class="mt-auto d-flex">
+                                        <a href="#"
+                                            class="social-icon rounded-circle color-brown border-color-brown h-bg-color-brown mb-xl-0 me-3">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-facebook-f color-dark-green"></i>
+                                        </a>
+
+                                        <a href="#"
+                                            class="social-icon rounded-circle color-brown border-color-brown h-bg-color-brown mb-xl-0 me-3">
+                                            <i class="fa-brands fa-x-twitter"></i>
+                                            <i class="fa-brands fa-twitter color-dark-green"></i>
+                                        </a>
+
+                                        <a href="#"
+                                            class="social-icon rounded-circle color-brown border-color-brown h-bg-color-brown mb-xl-0 me-0">
+                                            <i class="bi-instagram"></i>
+                                            <i class="bi-instagram color-dark-green"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <div id="gotoTop"
+                                class="h-bg-color-brown bg-transparent border border-default color-brown h-color-dark-green position-relative mx-auto bottom-0 start-0 rounded-circle op-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi-arrow-up" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z">
+                                </svg>
+                            </div>
+                            <p class="text-center text-light op-02 small mt-3 mb-0">Copyrights &copy; 2023. All Rights
+                                Reserved by Canvas Inc.</p>
+                        </div>
+
+                    </div>
+
+                </div><!-- .footer-widgets-wrap end -->
+
+            </div>
+
+        </footer><!-- #footer end -->
+
+    </div><!-- #wrapper end -->
+
+    <!-- JavaScripts
+	============================================= -->
+    <script src="js/plugins.min.js"></script>
+    <script src="js/functions.bundle.js"></script>
+
+</body>
+
+</html>
