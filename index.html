@@ -75,90 +75,6 @@
       }
     }
   </style>
-  <!-- block-misc-link-hovers.html -->
-  <style>
-    .font-family-b612 {
-      font-family: B612, sans-serif;
-    }
-
-    .d-grid {
-      display: grid;
-      width: 100%;
-      margin: 0 auto;
-      padding: 10vh 0;
-      max-width: 1050px;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      grid-auto-rows: 200px;
-      grid-gap: 2rem;
-      justify-content: center;
-      list-style: none;
-    }
-
-    .d-grid-item {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      background: #FBFBFB;
-    }
-
-    /* Links */
-    .link {
-      position: relative;
-      cursor: pointer;
-      white-space: nowrap;
-      color: #333;
-      font-size: 1.125rem;
-      font-family: 'Roboto', sans-serif;
-    }
-
-    .link::before,
-    .link::after {
-      position: absolute;
-      width: 100%;
-      height: 1px;
-      background: currentColor;
-      top: 100%;
-      left: 0;
-      pointer-events: none;
-    }
-
-    .link::before {
-      content: '';
-      /* show by default */
-    }
-
-    /* Link 9 */
-    .link-9 {
-      font-weight: 700;
-    }
-
-    .link-9::before {
-      transform-origin: 0% 50%;
-      transform: scale3d(0, 1, 1);
-      transition: transform 0.3s;
-    }
-
-    .link-9:hover::before {
-      transform: scale3d(1, 1, 1);
-    }
-
-    .link-9::after {
-      content: '';
-      top: calc(100% + 4px);
-      transition: transform 0.3s;
-      transform-origin: 100% 50%;
-    }
-
-    .link-9:hover::after {
-      transform: scale3d(0, 1, 1);
-    }
-  </style>
   <!-- block-footer-5.html -->
   <style>
     body,
@@ -454,27 +370,6 @@
           </div>
         </div>
       </div>
-    </section><!-- #content end -->
-    <section id="content">
-      <div class="content-wrap">
-        <div class="container">
-          <div class="text-center" style="font-family: 'Roboto Mono', monospace;">
-            <h2 class="mb-2">CSS Line Hover Styles for Links</h2>
-            <p class="op-06 mb-3">A collection of simple and subtle CSS-only line hover animations for
-              links.</p>
-          </div>
-          <div class="d-grid">
-            <div class="d-grid-item">
-              <a href="#" class="link link-9 text-uppercase font-family-b612">Blog1</a>
-            </div>
-            <div class="d-grid-item">
-              <a href="#" class="link link-9 text-uppercase font-family-b612">Blog2</a>
-            </div>
-            <div class="d-grid-item">
-              <a href="#" class="link link-9 text-uppercase font-family-b612">Blog3</a>
-            </div>
-          </div>
-        </div>
     </section><!-- #content end -->
     <!-- Footer ============================================= -->
     <footer id="footer" class="dark border-color-brown border-width-3 bg-dark-green">
