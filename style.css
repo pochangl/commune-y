@@ -17308,7 +17308,7 @@ img.lazy:not([src]) {
   --cnvs-primary-menu-active-color:	var(--cnvs-primary-menu-hover-color);
   --cnvs-primary-menu-font:	var(--cnvs-primary-font);
   --cnvs-primary-menu-font-weight:	700;
-  --cnvs-primary-menu-font-size:	0.8125rem;
+  --cnvs-primary-menu-font-size:	1.2rem;
   --cnvs-primary-menu-tt:	uppercase;
   --cnvs-primary-menu-ls:	1px;
   --cnvs-primary-menu-icon-size:	1rem;
