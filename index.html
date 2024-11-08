@@ -14,6 +14,14 @@
   <title>Commune.Y</title>
   <!-- banner -->
   <style>
+    #banner img {
+      object-fit: cover;
+    }
+
+    #banner .carousel {
+      max-height: 500px;
+    }
+
     #banner-action {
       position: absolute;
       top: 20%;
@@ -187,9 +195,8 @@
     </header><!-- #header end -->
     <!-- Content
 		============================================= -->
-    <section id="content">
+    <section id="banner">
       <div class="content-wrap py-0 container">
-
         <div id="banner-action" class="card border-0 dark shadow-sm h-shadow shadow-ts p-3"
           style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4));">
           <div class="card-body">
@@ -200,23 +207,18 @@
             </a>
           </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center text-center bg-light min-vh-50"
-          style="background: linear-gradient(rgba(255,255,255,.75), rgba(255,255,255,.75))">
-          <div class="col-12">
-            <div id="bs-carousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/entrance.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/cubic.jpg" alt="Second slide">
-                </div>
-              </div>
+        <div id="bs-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/entrance.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/cubic.jpg" alt="Second slide">
             </div>
           </div>
         </div>
